@@ -71,7 +71,7 @@ int pul_detect(long int *data)
 					#ifdef JUMP_FL
 					//if the last number is -1
 					if(data[i+n]==-1)
-						return 31;
+						return 30;
 					#endif
 					
 					if(n+i==END_WINDOW)
